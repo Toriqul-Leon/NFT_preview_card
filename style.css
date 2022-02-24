@@ -1,0 +1,86 @@
+/* !Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*! Colors */
+
+/* !Primary */
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(216, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.middle-text {
+  font-size: 18px;
+  color: var(--SoftBlue);
+}
+body {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--mainBG);
+}
+
+.section-center {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 470px;
+  height: 700px;
+  border-radius: 19px;
+  background: var(--cardBG);
+  box-shadow: 21px 21px 43px #122337, -21px -21px 43px #00060e;
+}
+
+.main-image {
+  border-radius: 10px;
+}
+h2 {
+  margin-right: 200;
+  color: var(--White);
+}
+
+.text-content {
+  width: 400px;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  color: var(--Cyan);
+}
+
+.avatar-container {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+  align-items: center;
+}
+
+.avatar-image {
+  border: 1px solid var(--White);
+  border-radius: 25px;
+}
+
+.name-title {
+  color: var(--White);
+}
+
+.clock-color {
+  color: var(--SoftBlue);
+}
+
+.line-view {
+  border-top: 1px solid var(--line);
+}
